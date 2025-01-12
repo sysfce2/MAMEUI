@@ -32,16 +32,20 @@ public:
 		, m_kb(*this, MM74C923_TAG)
 		, m_led_l(*this, DM9368_L_TAG)
 		, m_led_h(*this, DM9368_H_TAG)
+		, m_adr_l(*this, "adr_l")
+		, m_adr_h(*this, "adr_h")
 		, m_cassette(*this, "cassette")
 		, m_ram(*this, RAM_TAG)
 		, m_special(*this, "SPECIAL")
-		, m_7segs(*this, "digit%u", 0U)
-		, m_led(*this, "led0")
+		, m_text(*this, "text%u", 0U)
 	{ }
 
 	void elf2(machine_config &config);
 
-	DECLARE_INPUT_CHANGED_MEMBER( input_w );
+	DECLARE_INPUT_CHANGED_MEMBER(input_w);
+
+protected:
+	virtual void machine_start() override ATTR_COLD;
 
 private:
 	uint8_t dispon_r();
@@ -51,31 +55,30 @@ private:
 	int wait_r();
 	int clear_r();
 	int ef4_r();
-	void q_w(int state);
 	uint8_t dma_r();
 	void sc_w(uint8_t data);
 	void da_w(int state);
-	template <unsigned N> void digit_w(uint8_t data) { m_7segs[N] = data; }
+	void status_w();
 
-	DECLARE_QUICKLOAD_LOAD_MEMBER( quickload_cb );
+	DECLARE_QUICKLOAD_LOAD_MEMBER(quickload_cb);
 	void elf2_io(address_map &map) ATTR_COLD;
 	void elf2_mem(address_map &map) ATTR_COLD;
-
-	virtual void machine_start() override ATTR_COLD;
 
 	required_device<cosmac_device> m_maincpu;
 	required_device<cdp1861_device> m_vdc;
 	required_device<mm74c922_device> m_kb;
 	required_device<dm9368_device> m_led_l;
 	required_device<dm9368_device> m_led_h;
+	required_device<dm9368_device> m_adr_l;
+	required_device<dm9368_device> m_adr_h;
 	required_device<cassette_image_device> m_cassette;
 	required_device<ram_device> m_ram;
 	required_ioport m_special;
-	output_finder<2> m_7segs;
-	output_finder<> m_led;
+	output_finder<8> m_text;
 
-	// display state
+	// internal state
 	uint8_t m_data = 0;
+	uint8_t m_status = 8;
 };
 
 #endif // MAME_NETRONICS_ELF_H
