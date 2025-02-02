@@ -1,67 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
-<!-- Number of items in this list = 153 -->
+<!-- Number of items in this list = 161 -->
 <softwarelist name="a5200" description="a5200 loose roms">
-	<software name="a52db1ab57771b0f">
-		<description>(demo)Atari PAM Final System Test v1.1 (1982)(Atari)</description>
-		<year>????</year>
-		<publisher>unknown</publisher>
-		<part name="cart" interface="a8bit_cart">
-			<dataarea name="rom" size="8192">
-				<rom name="(demo)Atari PAM Final System Test v1.1 (1982)(Atari).a52" size="8192" crc="3da972c8" sha1="db1ab57771b0f12adeb3bc155285849070edbbf7"/>
-			</dataarea>
-		</part>
-	</software>
-	<software name="a52a184bab8b19fd">
-		<description>(demo)Lake 7 by Jeffry Johnston (PD)</description>
-		<year>????</year>
-		<publisher>unknown</publisher>
-		<part name="cart" interface="a8bit_cart">
-			<dataarea name="rom" size="32768">
-				<rom name="(demo)Lake 7 by Jeffry Johnston (PD).a52" size="32768" crc="307dd28d" sha1="a184bab8b19fde7c14d2b8fca0f76f92ef14c8f8"/>
-			</dataarea>
-		</part>
-	</software>
-	<software name="a528dbb453f9f986">
-		<description>(demo)Lake 8 by Jeffry Johnston (PD)</description>
-		<year>????</year>
-		<publisher>unknown</publisher>
-		<part name="cart" interface="a8bit_cart">
-			<dataarea name="rom" size="32768">
-				<rom name="(demo)Lake 8 by Jeffry Johnston (PD).a52" size="32768" crc="6b3be764" sha1="8dbb453f9f9863ef512afab0c0f579462e648932"/>
-			</dataarea>
-		</part>
-	</software>
-	<software name="a52c809dccec64e1">
-		<description>(demo)menu</description>
-		<year>????</year>
-		<publisher>unknown</publisher>
-		<part name="cart" interface="a8bit_cart">
-			<dataarea name="rom" size="32768">
-				<rom name="(demo)menu.bin" size="32768" crc="32e2b062" sha1="c809dccec64e1d1ba1763b1d0c12681daf9f06c6"/>
-			</dataarea>
-		</part>
-	</software>
-	<software name="a52c898bbff4ec8f">
-		<description>(demo)menu_wish_list_5200</description>
-		<year>????</year>
-		<publisher>unknown</publisher>
-		<part name="cart" interface="a8bit_cart">
-			<dataarea name="rom" size="32768">
-				<rom name="(demo)menu_wish_list_5200.bin" size="32768" crc="5972c18e" sha1="c898bbff4ec8f1c334b7e1825230c6132a781c8a"/>
-			</dataarea>
-		</part>
-	</software>
-	<software name="a525717dd1cfb0d4">
-		<description>(demo)Missile Command 5200 Hack</description>
-		<year>????</year>
-		<publisher>unknown</publisher>
-		<part name="cart" interface="a8bit_cart">
-			<dataarea name="rom" size="16384">
-				<rom name="(demo)Missile Command 5200 Hack.a52" size="16384" crc="b8b6a2fd" sha1="5717dd1cfb0d4faad461b68a3a31a9fc63fe2ae9"/>
-			</dataarea>
-		</part>
-	</software>
 	<software name="a522071e69941a10">
 		<description>(demo)PAM SALT V1.02 (1982) (Atari) [o1]</description>
 		<year>????</year>
@@ -162,6 +102,16 @@
 			</dataarea>
 		</part>
 	</software>
+	<software name="a522cf8fd4974bf5">
+		<description>5200_MsPac_throttle</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="32768">
+				<rom name="5200_MsPac_throttle.a52" size="32768" crc="f2b923f3" sha1="2cf8fd4974bf5d959c71f9771d8ffba4c9d2350b"/>
+			</dataarea>
+		</part>
+	</software>
 	<software name="a52fb7b01816f13d">
 		<description>adv2demo final 2007-01-19</description>
 		<year>????</year>
@@ -172,16 +122,6 @@
 			</dataarea>
 		</part>
 	</software>
-	<software name="a52c4fc3a7f5c3bc">
-		<description>Adventure II (2005)(Square Trio)[Demo 2006-02-05]</description>
-		<year>????</year>
-		<publisher>unknown</publisher>
-		<part name="cart" interface="a8bit_cart">
-			<dataarea name="rom" size="32768">
-				<rom name="Adventure II (2005)(Square Trio)[Demo 2006-02-05].a52" size="32768" crc="ab4a00a5" sha1="c4fc3a7f5c3bccccf2f2e9aa4d07b5be243315c2"/>
-			</dataarea>
-		</part>
-	</software>
 	<software name="a52c37ab20829192">
 		<description>Adventure II - limited-play demo of Adventure II as it was shown at the Oklahoma Video Game Expo 2005</description>
 		<year>????</year>
@@ -189,6 +129,16 @@
 		<part name="cart" interface="a8bit_cart">
 			<dataarea name="rom" size="32768">
 				<rom name="Adventure II - limited-play demo of Adventure II as it was shown at the Oklahoma Video Game Expo 2005.a52" size="32768" crc="a4496291" sha1="c37ab20829192ec4d9de3e18b0b9b6ec60277b47"/>
+			</dataarea>
+		</part>
+	</software>
+	<software name="a52c4fc3a7f5c3bc">
+		<description>Adventure II demo 01-2006</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="32768">
+				<rom name="Adventure II demo 01-2006.a52" size="32768" crc="ab4a00a5" sha1="c4fc3a7f5c3bccccf2f2e9aa4d07b5be243315c2"/>
 			</dataarea>
 		</part>
 	</software>
@@ -272,6 +222,26 @@
 			</dataarea>
 		</part>
 	</software>
+	<software name="a522f1645a868b24">
+		<description>Asteroids_-_Vector_Edition_5200</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="16384">
+				<rom name="Asteroids_-_Vector_Edition_5200.bin" size="16384" crc="c5bd8bad" sha1="2f1645a868b24301fbeee4f7bcf725a01e511636"/>
+			</dataarea>
+		</part>
+	</software>
+	<software name="a52ea261def6ee26">
+		<description>Asteroids_VE_Revision_2__Atari_5200_</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="16384">
+				<rom name="Asteroids_VE_Revision_2__Atari_5200_.a52" size="16384" crc="dd5ecbaa" sha1="ea261def6ee2644e328f55add4ef4b80beaeeaa6"/>
+			</dataarea>
+		</part>
+	</software>
 	<software name="a521dfd9cb5eb608">
 		<description>Ballblazer (1984)(Atari)[CX5255]</description>
 		<year>????</year>
@@ -292,13 +262,13 @@
 			</dataarea>
 		</part>
 	</software>
-	<software name="a52ccc1dd68399ca">
-		<description>Beef Drop (2004)(Ken Siders)[Self-Published][Demo 08-11-04)</description>
+	<software name="a5267820270f192e">
+		<description>BCs Quest For Tires (XL Conversion) selfpublished</description>
 		<year>????</year>
 		<publisher>unknown</publisher>
 		<part name="cart" interface="a8bit_cart">
 			<dataarea name="rom" size="32768">
-				<rom name="Beef Drop (2004)(Ken Siders)[Self-Published][Demo 08-11-04).a52" size="32768" crc="228cd893" sha1="ccc1dd68399ca279db3186dc947d7b2ec7aee4a3"/>
+				<rom name="BCs Quest For Tires (XL Conversion) selfpublished.bin" size="32768" crc="a3a16596" sha1="67820270f192e6a35d680bf08d6f2b5650f47398"/>
 			</dataarea>
 		</part>
 	</software>
@@ -362,6 +332,16 @@
 			</dataarea>
 		</part>
 	</software>
+	<software name="a52ccc1dd68399ca">
+		<description>Beef_Drop_5200</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="32768">
+				<rom name="Beef_Drop_5200.a52" size="32768" crc="228cd893" sha1="ccc1dd68399ca279db3186dc947d7b2ec7aee4a3"/>
+			</dataarea>
+		</part>
+	</software>
 	<software name="a526f37fe8dd4a4a">
 		<description>Beef_Drop__fixed_level3</description>
 		<year>????</year>
@@ -389,6 +369,16 @@
 		<part name="cart" interface="a8bit_cart">
 			<dataarea name="rom" size="32768">
 				<rom name="Beef_Drop__fixed_level3_new.BIN" size="32768" crc="c94c934d" sha1="a18beaa9a8c14dce55032fb55237a9457b88a109"/>
+			</dataarea>
+		</part>
+	</software>
+	<software name="a5284b37092332c5">
+		<description>blaster32_5200</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="32768">
+				<rom name="blaster32_5200.bin" size="32768" crc="266d9324" sha1="84b37092332c5ba7009537bbfe8c5e9ae066ba50"/>
 			</dataarea>
 		</part>
 	</software>
@@ -652,6 +642,16 @@
 			</dataarea>
 		</part>
 	</software>
+	<software name="a526e81cafd17c52">
+		<description>Championship Lode Runner (2000) (PD)</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="47626">
+				<rom name="Championship Lode Runner (2000) (PD).a52" size="47626" crc="3469d418" sha1="6e81cafd17c5252e59f03fb1bfc7b90736bb7fd3"/>
+			</dataarea>
+		</part>
+	</software>
 	<software name="a52ab6780f708455">
 		<description>Chess (Conv)</description>
 		<year>????</year>
@@ -692,6 +692,16 @@
 			</dataarea>
 		</part>
 	</software>
+	<software name="a5237cf6e29aa4d0">
+		<description>cosmi5200</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="32768">
+				<rom name="cosmi5200.bin" size="32768" crc="219615d9" sha1="37cf6e29aa4d0ca5e213045c26c9a8d4b01ae375"/>
+			</dataarea>
+		</part>
+	</software>
 	<software name="a5246b7032b4011b">
 		<description>cracky</description>
 		<year>????</year>
@@ -709,6 +719,16 @@
 		<part name="cart" interface="a8bit_cart">
 			<dataarea name="rom" size="32768">
 				<rom name="crystal castles (conv).bin" size="32768" crc="596f61d1" sha1="762e2a6f1831d5bc99e01c6418b72370fd7c8985"/>
+			</dataarea>
+		</part>
+	</software>
+	<software name="a52db1ab57771b0f">
+		<description>Diagnostic11</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="8192">
+				<rom name="Diagnostic11.a52" size="8192" crc="3da972c8" sha1="db1ab57771b0f12adeb3bc155285849070edbbf7"/>
 			</dataarea>
 		</part>
 	</software>
@@ -753,22 +773,12 @@
 		</part>
 	</software>
 	<software name="a527bd238483c48c">
-		<description>Donkey Kong Jr - 5200 Game Release #1</description>
+		<description>Donkey Kong Jr Rel1</description>
 		<year>????</year>
 		<publisher>unknown</publisher>
 		<part name="cart" interface="a8bit_cart">
 			<dataarea name="rom" size="32768">
-				<rom name="Donkey Kong Jr - 5200 Game Release #1.bin" size="32768" crc="b136c3f5" sha1="7bd238483c48cbf75b12a11c17c55aa53518767b"/>
-			</dataarea>
-		</part>
-	</software>
-	<software name="a5237cf6e29aa4d0">
-		<description>Forbidden Forest</description>
-		<year>????</year>
-		<publisher>unknown</publisher>
-		<part name="cart" interface="a8bit_cart">
-			<dataarea name="rom" size="32768">
-				<rom name="Forbidden Forest.bin" size="32768" crc="219615d9" sha1="37cf6e29aa4d0ca5e213045c26c9a8d4b01ae375"/>
+				<rom name="Donkey Kong Jr Rel1.bin" size="32768" crc="b136c3f5" sha1="7bd238483c48cbf75b12a11c17c55aa53518767b"/>
 			</dataarea>
 		</part>
 	</software>
@@ -882,33 +892,33 @@
 			</dataarea>
 		</part>
 	</software>
-	<software name="a521ae10ca8b8590">
-		<description>Jumpman Jr (Conv)(num+1num2)</description>
+	<software name="a526d6ec1ce9b6c4">
+		<description>jmjr5200b</description>
 		<year>????</year>
 		<publisher>unknown</publisher>
 		<part name="cart" interface="a8bit_cart">
 			<dataarea name="rom" size="32768">
-				<rom name="Jumpman Jr (Conv)(num+1num2).bin" size="32768" crc="fb35d43b" sha1="1ae10ca8b85900a25da51916ae28f5f94ad49775"/>
+				<rom name="jmjr5200b.bin" size="32768" crc="eca59908" sha1="6d6ec1ce9b6c4136994c98f963cb8fe7e10bbc76"/>
+			</dataarea>
+		</part>
+	</software>
+	<software name="a521ae10ca8b8590">
+		<description>Jumpman Jr (Conv)</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="32768">
+				<rom name="Jumpman Jr (Conv).bin" size="32768" crc="fb35d43b" sha1="1ae10ca8b85900a25da51916ae28f5f94ad49775"/>
 			</dataarea>
 		</part>
 	</software>
 	<software name="a52936665933b3c7">
-		<description>Jumpman Junior - 5200 Game Release #4(num+1num2)</description>
+		<description>Jumpman Junior Rel4</description>
 		<year>????</year>
 		<publisher>unknown</publisher>
 		<part name="cart" interface="a8bit_cart">
 			<dataarea name="rom" size="32768">
-				<rom name="Jumpman Junior - 5200 Game Release #4(num+1num2).bin" size="32768" crc="87bba47d" sha1="936665933b3c762a190c7e14c90983fe7a5f20f1"/>
-			</dataarea>
-		</part>
-	</software>
-	<software name="a526d6ec1ce9b6c4">
-		<description>Jumpman Junior 5200b(num+1num2)</description>
-		<year>????</year>
-		<publisher>unknown</publisher>
-		<part name="cart" interface="a8bit_cart">
-			<dataarea name="rom" size="32768">
-				<rom name="Jumpman Junior 5200b(num+1num2).bin" size="32768" crc="eca59908" sha1="6d6ec1ce9b6c4136994c98f963cb8fe7e10bbc76"/>
+				<rom name="Jumpman Junior Rel4.bin" size="32768" crc="87bba47d" sha1="936665933b3c762a190c7e14c90983fe7a5f20f1"/>
 			</dataarea>
 		</part>
 	</software>
@@ -932,6 +942,26 @@
 			</dataarea>
 		</part>
 	</software>
+	<software name="a52a184bab8b19fd">
+		<description>Lake 7 by Jeffry Johnston (PD)</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="32768">
+				<rom name="Lake 7 by Jeffry Johnston (PD).a52" size="32768" crc="307dd28d" sha1="a184bab8b19fde7c14d2b8fca0f76f92ef14c8f8"/>
+			</dataarea>
+		</part>
+	</software>
+	<software name="a528dbb453f9f986">
+		<description>Lake 8 by Jeffry Johnston (PD)</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="32768">
+				<rom name="Lake 8 by Jeffry Johnston (PD).a52" size="32768" crc="6b3be764" sha1="8dbb453f9f9863ef512afab0c0f579462e648932"/>
+			</dataarea>
+		</part>
+	</software>
 	<software name="a52b23084866e1ed">
 		<description>lift</description>
 		<year>????</year>
@@ -952,6 +982,46 @@
 			</dataarea>
 		</part>
 	</software>
+	<software name="a52c809dccec64e1">
+		<description>menu</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="32768">
+				<rom name="menu.bin" size="32768" crc="32e2b062" sha1="c809dccec64e1d1ba1763b1d0c12681daf9f06c6"/>
+			</dataarea>
+		</part>
+	</software>
+	<software name="a52c898bbff4ec8f">
+		<description>menu_wish_list_5200</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="32768">
+				<rom name="menu_wish_list_5200.bin" size="32768" crc="5972c18e" sha1="c898bbff4ec8f1c334b7e1825230c6132a781c8a"/>
+			</dataarea>
+		</part>
+	</software>
+	<software name="a52ea00348b23f14">
+		<description>Missile Command 5200 (4482) (PAL) (Proto)</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="8192">
+				<rom name="Missile Command 5200 (4482) (PAL) (Proto).a52" size="8192" crc="957a4205" sha1="ea00348b23f14c358be7a53b1a1c24a0f105644c"/>
+			</dataarea>
+		</part>
+	</software>
+	<software name="a525717dd1cfb0d4">
+		<description>Missile Command 5200 Hack</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="16384">
+				<rom name="Missile Command 5200 Hack.a52" size="16384" crc="b8b6a2fd" sha1="5717dd1cfb0d4faad461b68a3a31a9fc63fe2ae9"/>
+			</dataarea>
+		</part>
+	</software>
 	<software name="a52f0c3f2189be54">
 		<description>Montezuma's Revenge</description>
 		<year>????</year>
@@ -959,6 +1029,16 @@
 		<part name="cart" interface="a8bit_cart">
 			<dataarea name="rom" size="32768">
 				<rom name="Montezuma's Revenge.bin" size="32768" crc="bcf677fb" sha1="f0c3f2189be54914c73aa82a649599432b67b9ff"/>
+			</dataarea>
+		</part>
+	</software>
+	<software name="a5251ec0af788ee8">
+		<description>MULE (USB Cart Only, Bank 126)</description>
+		<year>????</year>
+		<publisher>unknown</publisher>
+		<part name="cart" interface="a8bit_cart">
+			<dataarea name="rom" size="32768">
+				<rom name="MULE (USB Cart Only, Bank 126).a52" size="32768" crc="f588d38e" sha1="51ec0af788ee859088defe9ef59eabc909d6e362"/>
 			</dataarea>
 		</part>
 	</software>
